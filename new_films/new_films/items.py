@@ -13,8 +13,6 @@ class FilmItem(scrapy.Item):
     release = scrapy.Field()
     duration = scrapy.Field()
     genres = scrapy.Field()
-    press_ratings = scrapy.Field()
-    viewers_ratings = scrapy.Field()
     synopsis = scrapy.Field()
     director = scrapy.Field()
     casting = scrapy.Field()
