@@ -11,7 +11,7 @@ from itemadapter import ItemAdapter
 from loguru import logger
 
 
-LIST_FIELDS = ("casting", "director", "genres")
+LIST_FIELDS = ("casting", "director", "genres", "nationality")
 SET_FIELDS = ("societies", )
 
 
